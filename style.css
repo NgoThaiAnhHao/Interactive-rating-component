@@ -169,6 +169,18 @@ p {
   }
 }
 
+@media (max-width: 450px) {
+  html {
+    font-size: 9px;
+  }
+
+  .container,
+  .submitted {
+    width: 80%;
+    height: 35rem;
+  }
+}
+
 @media (max-width: 375px) {
   html {
     font-size: 8px;
